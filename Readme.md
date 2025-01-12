@@ -1,117 +1,131 @@
-Here’s the updated **GitHub README** with proper headings and formatting:
+
+
+# My Awesome YouTube Channel
+
+Welcome to my YouTube channel! 🎉 In this channel, I share exciting content related to web development. Whether you're interested in Angular, Javascript, or Productivity tips, you'll find something valuable here.
+[YouTube Channel](http://youtube.com/@neweraofcoding)
+
+## About Me
+
+I'm Sam, and I'm passionate about product engineering and web development. I create videos that will help you learn web development.
+
+## What You'll Find Here
+
+- **[ Angular ]**: [Learn the fundamentals. I explained everything you need to get started with this JavaScript framework written in TypeScript. It is the web development framework for building the future. works at any scale. Loved by millions. Build for everyone.  open-source framework for building single-page client applications using HTML and TypeScript.]
+- **[ Javascript ]**: [JavaScript is a powerful programming language that can add interactivity to a website. JavaScript is easy to learn. It's the foundation of frontend web development.]
+- **[ Career Tips ]**: [self-assessment, goal setting, action planning, implementation, and refinement. By following these steps, you can develop a road map for achieving your career goals. Tips to improve your career development. Cultivating a beginner's mindset is a critical part of career growth. critical part of your professional growth.]
+- **[ Common Errors ]**: [Mistakes to Avoid in Software Development Projects.]
+- **[ Development Tools ]**: [Top Software Development Tools List.]
+- **[ Typescript ]**: [TypeScript extends JavaScript by adding types to the language. TypeScript speeds up your development experience by catching errors. TypeScript can help enhance and improve your web development projects.]
+- **[ Git & GitHub ]**: [GitHub is where over 100 million developers shape the future of software together. Contribute to the open-source community and manage Git repositories. This practical guide gets you to jump right into using GitHub, learning the basics of Git. Git and GitHub are two of the most essential tools in the world of software development.]
+- **[ Video Conferencing Tool ]**: [Unlock the potential of video conferencing software development. Dive into our guide for insights on key features and cost factors.  If you're looking to integrate video communication into your app or planning to build a video streaming/conference app from scratch, create a fully customized audio & video conferencing app.]
+
+
+### About the app
+you can use this library in any frontend project.
+
+## Subscribe and Stay Updated!
+
+Don't miss out on new videos! Subscribe to my channel and hit the notification bell 🔔 to receive updates whenever I upload fresh content. Let's learn, laugh, and explore together!
+
+[!Subscribe to My Channel](http://youtube.com/@neweraofcoding)
+
+## Connect with Me
+
+- **YouTube**: [YouTube Channel Link](http://youtube.com/@neweraofcoding)
+- **Facebook**: [Facebook Page Link](https://www.facebook.com/learnangular2plus/)
+- **Instagram**: [Instagram Page Link](https://www.instagram.com/angular_development/)
+
+Feel free to reach out, comment on videos, and share your thoughts. I appreciate your support! 🙌
+
+## License
+
+This project is licensed under the MIT License.
 
 ---
 
-# **Fractal**
+If you have any questions or need further assistance, feel free to ask! 🚀
 
-[![GitHub License](https://img.shields.io/github/license/frctl/fractal)](https://github.com/frctl/fractal/blob/main/LICENSE)  
-**Fractal** is an open-source tool for building, previewing, and documenting modular web component libraries. It helps developers break down user interfaces into small, reusable chunks to create web components that can be assembled efficiently to build entire websites or applications.
+##  Steps to contribute and generate PR(pull request)
 
----
+ ###  clone the repository
+clone the forked repository to your system. Go to your GitHub account, open the forked repository, click on the code button and then clone the repository.
+If you want to use the terminal, use the following commands after you fork the repository, open the terminal type the given command
+```
+git clone repo url
+```
+### create a branch
+ create a branch on your local repository to solve a problem.
 
-## **🚀 Features**
+Terminal commands
+```
+git checkout -b your_new_branch_name
+```   
+###   add & commit
+add your changes(folder) to that branch.
+Make necessary changes and commit those changes. Terminal commands
+```
+git add .
+git commit -m "your-commit-message"
+```
+### push changes to github
+finally, push your local repository to the remote repository compare & submit a pull request
 
-- **Component Libraries:** Create libraries of reusable components that make up your user interface.
-- **Modular Design:** Components can be mixed and matched to build everything from small widgets to complete pages.
-- **Preview & Documentation:** View and document components in isolation, ensuring they are well-documented for future reuse.
-- **Flexible:** Supports any templating language, build tool, or organizational model you prefer.
-- **Integrated:** Easily integrate components into your build process or live website as dependencies.
-- **Data-Driven:** Components can use hardcoded or dynamic data (e.g., from HTTP APIs or Faker).
-- **Customizable UI:** Browse your component library through a web interface with themes you can customize or build from scratch.
+terminal commands
+```
+git push origin 
+```
+Go to your repository on GitHub, you'll see a compare & pull request button. Click on that button.
 
----
+Now submit the pull request.
+   
+For quick approval of the pull request, reach out to me on the mentioned social media channels.
+```bash
 
-## **📦 Requirements**
 
-To use Fractal, you’ll need:
-- **Node.js** (LTS version recommended).  
-  _Note: While older versions might work, they are not officially supported._
 
----
+ _____ _                 _     __   __            
+|_   _| |               | |    \ \ / /            
+  | | | |__   __ _ _ __ | | __  \ V /___  _   _   
+  | | | '_ \ / _` | '_ \| |/ /   \ // _ \| | | |  
+  | | | | | | (_| | | | |   <    | | (_) | |_| |  
+  \_/ |_| |_|\__,_|_| |_|_|\_\   \_/\___/ \__,_|  
+                                                  
+                                                  
+______                                            
+|  ___|                                           
+| |_ ___  _ __                                    
+|  _/ _ \| '__|                                   
+| || (_) | |                                      
+\_| \___/|_|                                      
+                                                  
+                                                  
+______      _               _   _               _ 
+| ___ \    (_)             | | | |             | |
+| |_/ / ___ _ _ __   __ _  | |_| | ___ _ __ ___| |
+| ___ \/ _ \ | '_ \ / _` | |  _  |/ _ \ '__/ _ \ |
+| |_/ /  __/ | | | | (_| | | | | |  __/ | |  __/_|
+\____/ \___|_|_| |_|\__, | \_| |_/\___|_|  \___(_)
+                     __/ |                        
+                    |___/                         
 
-## **🔧 Installation**
+ 
 
-1. **Install Fractal** via NPM:
-   ```bash
-   npm install --global @frctl/fractal
-   ```
 
-2. **Initialize Fractal** in your project:
-   ```bash
-   mkdir my-component-library && cd my-component-library
-   fractal new
-   ```
+```
+---------
+```javascript
 
----
+if (youEnjoyed) {
+ //  (star ⭐ & fork 🍽️) this repository.
+ // - Fork this repository by clicking on the fork button at the top of this page. This will create a copy of this repository in your account.
+    starThisRepository();
+}
 
-## **💻 Usage**
+```
+---------
+happy coding fellas!!💕✨
+-----------
+ 
 
-1. **Start the local development server**:
-   ```bash
-   fractal start --sync
-   ```
-   This command will launch a web-based interface where you can preview your components.
 
-2. **Add dynamic data**:  
-   Create a `.yml` file with the **same name** as your component to pass dynamic data during previews.
-
-3. **Integrate Fractal with your project**:  
-   Include Fractal as a dependency in your build process or use its API to build a seamless, component-driven workflow.
-
----
-
-## **🔗 Example Commands**
-
-- **Preview your components locally:**
-  ```bash
-  fractal start
-  ```
-- **Build static HTML export:**
-  ```bash
-  fractal build
-  ```
-- **Customize the web UI theme:**
-  Modify the default theme or build your own using Fractal’s theme API.
-
----
-
-## **🌐 API Integration**
-
-Use the Fractal API to extend its capabilities or automate tasks in your component workflow. You can also create custom CLI commands to simplify processes.
-
----
-
-## **🎯 Why Use Fractal?**
-
-Fractal provides **flexibility** and **integration** that other component tools lack:
-- No restrictions on the template language or organizational structure you use.
-- Components remain part of your **live project**, staying up-to-date with your build processes.
-- **Data-driven previews** help you test with real-world scenarios.
-
----
-
-## **📄 License**
-
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/frctl/fractal/blob/main/LICENSE) file for more details.
-
----
-
-## **🛠 Contributing**
-
-We welcome contributions from the community! If you’d like to improve Fractal or fix a bug, please open a pull request or issue on GitHub.
-
----
-
-## **📢 Support**
-
-For help or questions, please visit the [Fractal Documentation](https://fractal.build) or open an issue on the [GitHub Repository](https://github.com/frctl/fractal/issues).
-
----
-
-## **📝 Last Updated**
-
-_This README was last updated on **October 20, 2024**._
-
----
-
-This version includes proper **headings** marked with `##` and emphasizes sections with **bold text**, following the GitHub README format for clarity and readability.
